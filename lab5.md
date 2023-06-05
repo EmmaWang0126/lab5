@@ -1,5 +1,11 @@
 ## Part 1 – Debugging Scenario
-1. a) The environment I'm using is VScode terminal.                                                   
+1. a) The environment I'm using: 
+      Computer: MacBook Pro. 
+      Operating system: macOS. 
+      Web browser: Google.
+      Terminal: In macOS, it is still called Terminal. 
+      Editor: Visual Studio Code.
+      
    b) The detail symptom I'm seeing: Here is what I expected to see: 
       ```
       JUnit version 4.13.2
