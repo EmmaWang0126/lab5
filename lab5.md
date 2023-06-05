@@ -57,7 +57,11 @@
      javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
      java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java
      ```                                                               
-     A description of what to edit to fix the bug: To run it successfully, the second command should have ```ListExamplesTests``` instead of                  ```ListExamplesTests.java```. More specifically, ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore                ListExamplesTests```.   
+     A description of what to edit to fix the bug: To run it successfully, the second command should have ```ListExamplesTests``` instead of                  ```ListExamplesTests.java```. More specifically,                                              
+     ```
+     java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+     ```.   
                                                                              
 ## Part 2 – Reflection
-The cool thing I learned from the lab is that we can edit the code and search the require file all through the command line from the terminal. For example, in week 7 lab, after I made a fork of a folder, log in to my ieng6 account through the terminal, and clone my fork of the repository from Github account. I can simply type ```vim ListExamples.java``` to enter and edit the code through the termianl, which is amazing. 
+The cool thing I learned from the lab is that we can edit the code and search the require file all through the command line from the terminal. For example, in week 7 lab, after I made a fork of a folder, log in to my ieng6 account through the terminal, and clone my fork of the repository from Github account. I can simply type ```vim ListExamples.java``` to enter and edit the code through the termianl, which is amazing. Also, I found some
+Vim commands to make the edit process easier, such that, ```x``` can delete current character, and ```X``` can delete previous character. Moreover, I also found out some interesting commands that help search different kinds of files through the terminal, which are: ```grep -c```, ```grep -r```, ```grep -o```, and ```grep -n```. ```grep -c``` can use to count print only a count of matching lines per file, ```grep -r``` is use to recurse, ```grep - o``` is use to matching show only the part of a line matching patterns, as for ```grep -n```, it is use to print line number with output lines. They are all useful commands. 
