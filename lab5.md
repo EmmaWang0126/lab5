@@ -1,4 +1,4 @@
-## Part 1
+## Part 1 – Debugging Scenario
 1. a) The environment I'm using is VScode terminal.                                                   
    b) The detail symptom I'm seeing: Here is what I expected to see: 
       ```
@@ -52,14 +52,12 @@
      The contents of each file before fixing the bug: 
      ![Image](screenshot3.png)
      ![Image](screenshot4.png)                               
-                                                                                                        
      The full command line (or lines) you ran to trigger the bug: 
      ```
      javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
      java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java
-     ```
-                                                                               
+     ```                                                               
      A description of what to edit to fix the bug: To run it successfully, the second command should have ```ListExamplesTests``` instead of                  ```ListExamplesTests.java```. More specifically, ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore                ListExamplesTests```.   
                                                                              
-## Part 2
-
+## Part 2 – Reflection
+The cool thing I learned from the lab is that we can edit the code all through the commadn line from the terminal. 
