@@ -60,4 +60,4 @@
      A description of what to edit to fix the bug: To run it successfully, the second command should have ```ListExamplesTests``` instead of                  ```ListExamplesTests.java```. More specifically, ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore                ListExamplesTests```.   
                                                                              
 ## Part 2 – Reflection
-The cool thing I learned from the lab is that we can edit the code all through the commadn line from the terminal. 
+The cool thing I learned from the lab is that we can edit the code and search the require file all through the command line from the terminal. For example, in week 7 lab, after I made a fork of a folder, log in to my ieng6 account through the terminal, and clone my fork of the repository from Github account. I can simply type ```vim ListExamples.java``` to enter and edit the code through the termianl, which is amazing. 
