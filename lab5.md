@@ -36,4 +36,13 @@
     FAILURES!!!
     Tests run: 1,  Failures: 1
     ```
-    c) Detail the failure input and context 
+    c) Detail the failure-inducing input and context: The command I run in the terminal: 
+      ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java```.
+                                                                                              
+   2-1. A response from a TA asking a leading question or suggesting a command to try:
+        Try to describe how to change the commands or program to get the expected output, there might be some useful things in the test.sh. 
+                                                                                              
+   2-2. Here is the screenshot showing what information the student got from trying that: 
+        ![Image](screenshot1.png)
+        Here is a clear description of what the bug is: For the second command in the terminal, it should be 
+        ```java -cp .:lib/hamcrest-core-      1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```, which compare to the wrong          one, delete ```.java``` after the ```ListExamplesTests```. 
