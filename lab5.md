@@ -45,10 +45,10 @@
 2-2. Here is the screenshot showing what information the student got from trying that: 
      ![Image](screenshot1.png)
      Here is a clear description of what the bug is: For the second command in the terminal, it should be 
-     ```java -cp .:lib/hamcrest-core-      1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```, which compare to the wrong          one, delete ```.java``` after the ```ListExamplesTests```.                    
-2-3. The file & directory structure needed: ListExamples.java, ListExamplesTests.java. test.sh, and the lib includes hamcrest-core-1.3.jar and junit-        4.13.2.jar. 
-     ![Image](screenshot2.png)                                                           
+     ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```, which compare to the wrong                one, delete ```.java``` after the ```ListExamplesTests```.                                  
      
+2-3. The file & directory structure needed: ListExamples.java, ListExamplesTests.java. test.sh, and the lib includes hamcrest-core-1.3.jar and junit-        4.13.2.jar.                                                                      
+     ![Image](screenshot2.png)                                                           
      The contents of each file before fixing the bug: 
      ![Image](screenshot3.png)
      ![Image](screenshot4.png)                               
@@ -56,7 +56,10 @@
      The full command line (or lines) you ran to trigger the bug: 
      ```
      javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-     java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+     java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java
      ```
-                                                                                  
-    A description of what to edit to fix the bug: To run it successfully, the second command should have ListExamplesTests                                                                              
+                                                                               
+     A description of what to edit to fix the bug: To run it successfully, the second command should have ```ListExamplesTests``` instead of                  ```ListExamplesTests.java```. More specifically, ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore                ListExamplesTests```.   
+                                                                             
+## Part 2
+
