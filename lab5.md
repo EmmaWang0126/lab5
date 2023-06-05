@@ -1,5 +1,5 @@
 ## Part 1 – Debugging Scenario
-1. a) The environment I'm using: 
+1. a) The environment I'm using:                                                                                    
       Computer: MacBook Pro. 
       Operating system: macOS. 
       Web browser: Google.
